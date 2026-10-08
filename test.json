@@ -1,0 +1,56 @@
+{
+  "store": {
+    "name": "Tech World Electronics",
+    "established": 2018,
+    "isActive": true,
+    "contact": {
+      "email": "support@techworld.com",
+      "phone": "+1-800-555-0199",
+      "website": "https://www.techworld.com"
+    },
+    "location": {
+      "street": "123 Innovation Way",
+      "city": "Tech City",
+      "state": "CA",
+      "zipCode": "94016",
+      "coordinates": {
+        "latitude": 37.7749,
+        "longitude": -122.4194
+      }
+    },
+    "inventory": [
+      {
+        "id": "PROD-001",
+        "name": "Wireless Noise-Canceling Headphones",
+        "category": "Audio",
+        "price": 199.99,
+        "inStock": true,
+        "quantity": 45,
+        "tags": ["audio", "bluetooth", "wireless"]
+      },
+      {
+        "id": "PROD-002",
+        "name": "Ergonomic Mechanical Keyboard",
+        "category": "Peripherals",
+        "price": 129.50,
+        "inStock": true,
+        "quantity": 18,
+        "tags": ["gaming", "office", "hardware"]
+      },
+      {
+        "id": "PROD-003",
+        "name": "Ultra HD 27-inch Monitor",
+        "category": "Displays",
+        "price": 349.00,
+        "inStock": false,
+        "quantity": 0,
+        "tags": ["4k", "monitor", "display"]
+      }
+    ],
+    "servicesOffered": [
+      "Repair & Maintenance",
+      "Custom PC Building",
+      "Same-Day Local Delivery"
+    ]
+  }
+}
